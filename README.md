@@ -9,7 +9,7 @@ A Python-based web application that allows users to upload PDF documents and ask
 
 ## How to Run
 1. Clone this repository.
-2. Create a `.env` file and add your `GOOGLE_API_KEY`.
+2. Create a `.env` file and add your `GOOGLE_API_KEY` from gemini.
 3. Create a virtual environment: `python -m venv venv`.
 4. Install requirements: `pip install -r requirements.txt`.
 5. Run the app: `streamlit run app.py`.
