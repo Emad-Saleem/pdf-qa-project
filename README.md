@@ -8,7 +8,7 @@ A Python-based web application that allows users to upload PDF documents and ask
 - **Interactive UI:** Built with Streamlit for a clean browser experience.
 
 ## How to Run
-1. Clone this repository.
+1. Clone this repository. # test
 2. Create a `.env` file and add your `GOOGLE_API_KEY` from gemini.
 3. Create a virtual environment: `python -m venv venv`.
 4. Install requirements: `pip install -r requirements.txt`.

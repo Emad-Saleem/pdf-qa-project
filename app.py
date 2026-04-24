@@ -4,7 +4,7 @@ import fitz  # PyMuPDF
 from dotenv import load_dotenv
 from google import genai
 
-# --- 1. Page Configuration ---
+# --- 1. Page Configuration --- test
 st.set_page_config(page_title="PDF Chat AI", page_icon="📄")
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
