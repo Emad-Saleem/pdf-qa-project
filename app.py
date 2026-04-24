@@ -9,7 +9,7 @@ st.set_page_config(page_title="PDF Chat AI", page_icon="📄")
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 client = genai.Client(api_key=API_KEY)
-
+#hello
 # --- 2. Logic Functions ---
 def extract_pdf_text(uploaded_file):
     """Processes the PDF file object directly from the web uploader."""
