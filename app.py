@@ -6,7 +6,7 @@ from google import genai
 
 # --- 1. Page Configuration --- test
 st.set_page_config(page_title="PDF Chat AI", page_icon="📄")
-load_dotenv() # hello
+load_dotenv() # hello again
 API_KEY = os.getenv("GOOGLE_API_KEY")
 client = genai.Client(api_key=API_KEY)
 #hello
