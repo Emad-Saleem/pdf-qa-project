@@ -21,7 +21,7 @@ if "user_db" not in st.session_state:
         "student": "jee2026"
     }
 
-# --- 3. Logic Functions ---
+# --- 3. Logic Functions --
 def extract_pdf_text(uploaded_file):
     """Processes the PDF file object directly from the web uploader."""
     l = []
